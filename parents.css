@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+        background-color: #fff;
+        overflow-x: hidden
+     
+        
+           
+
+    
+   }
+
+  
+   
+   ::selection{
+        background-color: #cecece; }
+
+
+.navbar1{
+    
+@media screen and (min-width:992px)  {
+    background-color: #1d1d36;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+   gap: 2%;
+   height: 50px;
+   position: sticky;
+   top: 1px;
+   z-index: 2;
+   a{
+       color: #FEFEFE;
+   }
+   .atag{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       transition: 0.5s ;
+    
+   }
+   .atag:hover{
+       color: #9494ac;
+    }
+   
+}
+ }
+
+ .mainhed{
+    height: 100%;
+     
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h1{
+        color: #1d1d36;
+        font-size: 70px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    p{
+        color: #1d1d36;
+        font-size: 25px;
+     padding-left: 200px;
+     padding-right: 200px;
+     line-height: 35px;
+     font-weight: 300;
+    }
+     }
+     
+
+
+     
+ 
+.mainsection{
+
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    
+    }
+     
+      
+       
+   .rightdiv{
+       background-color: #1d1d36;
+       padding-top: 40px;
+   padding-left: 70px;
+   padding-right: 70px;
+   height:auto;
+   padding-bottom: 30px;
+    text-align: center;
+   h1{
+           color: #5c5adb;
+           line-height: 85px;
+           font-weight: 450;
+           
+           font-size: 50px;
+       }
+       p{
+           color: #ffffffad;
+           font-size: 22px;
+           line-height: 30px;
+           padding-bottom: 10px;
+           font-weight: 200;
+       }
+   
+   
+       
+    
+        }
+        .leftdiv{
+           padding: 0 !important;
+   
+            height: auto; 
+           img{
+               width: 100%;
+               height: 100%;
+           }
+           
+
+
+        
+        }
+        .rightdivul{
+            background-color:transparent;
+            padding-top: 90px;
+            padding-left: 100px !important;
+            padding-right: 50px;
+            height:auto;
+            padding-bottom: 30px;
+             text-align: center;
+
+          
+
+             h1{
+                color: #1d1d36;
+                line-height: 85px;
+                font-weight: 450;
+                
+                font-size: 50px;
+            }
+            p{
+                color: #1d1d36;
+                font-size: 22px;
+                line-height: 30px;
+                padding-bottom: 10px;
+                font-weight: 200;
+            }
+            .btn1{
+                padding-left: 30px;
+                padding-right: 30px;
+                border-radius: 1px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                 background-color: #5c5adb;
+                 border: none;
+                }
+                 
+                .btn1:hover{
+                    background-color: transparent;
+                    border: 1px solid white;
+                    color:  rgb(117, 116, 116);
+                    border: 1px solid black ;
+                }
+                
+        }
+
+
+
+    
+
+.footermain{
+    margin: 0 !important;
+    padding: 0 !important;
+ max-width: 19000px !important;
+ margin-top: 50px !important;
+ 
+}
+.footerdiv{
+    background-color: #1d1d36;
+    height: 500px;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+  
+    .card11{
+      padding-top: 100px;
+      
+    }
+
+    .cards12{
+        padding-top: 100px;
+        text-align: start;
+   
+        h4{
+            color: #a4a3e7;
+            font-size: 18px;
+            line-height: 70px;
+
+        }
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+ li  a { 
+        text-decoration: none;
+       
+       color: #fff;
+       font-size: 20px;
+       line-height: 40px;
+     
+
+
+    }
+}
